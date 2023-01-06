@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* banner section style */
+.banner{
+    background-image: url(images/banner/banner1.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+
+.banner-section{
+    text-align: right;
+    padding-right: 230px;
+
+}
+.banner-section .banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    padding-top: 216px;
+    color: #151414;
+    
+    
+}
+
+.description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+    color: #444343;
+}
+
+.contact-btn{
+    width: 160px;
+    height: 64px;
+    background: #F15B22;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 50px;
+    
+}
+
+/* My failures of previous year style */
+
+.main-section{
+    display: flex;
+}
+
+
+.img{
+    width: 569px;
+    height: 723.3px;
+    padding: 131px 87px 130px 520px;
+   
+
+}
+.person-img{
+    width: 450px;
+    height: 600px;
+}
+
+.previous-year{
+    margin-top: 330px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #444343;
+}
+.description{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 26px;
+    color: #444343;
+    
+}
+
+.inline-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #444343;
+    margin-top: 16px;
+    list-style-type: none;
+    
+
+}
+
+/* my-plan */
+.my-plan{
+    text-align: center;
+    
+}
+
+.title{
+    margin-bottom: 55px;
+}
+
+.my-plan .develop-plan{
+    display: flex;
+    gap: 150px;
+    text-align: center;
+    margin-left: 525px;
+    margin-right: 520px;
+    
+}
+.plan-img{
+    width: 92.96px;
+    height: 92.96px;
+    padding-bottom: 10px;
+}
+.plan-subtitle{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.plan-min-subtitle{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-top: 16px;
+}
+
+
