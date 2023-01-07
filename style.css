@@ -22,7 +22,7 @@
     font-weight: 700;
     font-size: 65px;
     line-height: 76px;
-    padding-top: 216px;
+    padding-top: 300px;
     color: #151414;
     
     
@@ -30,7 +30,7 @@
 
 .description{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 26px;
     margin-top: 24px;
     color: #444343;
@@ -40,13 +40,16 @@
     width: 160px;
     height: 64px;
     background: #F15B22;
-    border-radius: 5px;
+    border-radius: 8px;
     border: none;
     color: #FFFFFF;
     font-weight: 600;
     font-size: 20px;
     margin-top: 50px;
     
+}
+.contact-btn:hover{
+    background: #e97649;
 }
 
 /* My failures of previous year style */
@@ -59,7 +62,7 @@
 .img{
     width: 569px;
     height: 723.3px;
-    padding: 131px 87px 130px 520px;
+    padding: 131px 87px 130px 350px;
    
 
 }
@@ -69,7 +72,7 @@
 }
 
 .previous-year{
-    margin-top: 330px;
+    margin-top: 280px;
 }
 
 .title{
@@ -80,7 +83,6 @@
 }
 .description{
     font-weight: 400;
-    font-size: 19px;
     line-height: 26px;
     color: #444343;
     
@@ -97,13 +99,13 @@
 
 }
 
-/* my-plan */
+/* my-plan style */
 .my-plan{
     text-align: center;
     
 }
 
-.title{
+.my-plan .title{
     margin-bottom: 55px;
 }
 
@@ -111,14 +113,13 @@
     display: flex;
     gap: 150px;
     text-align: center;
-    margin-left: 525px;
-    margin-right: 520px;
-    
+    margin-left: 260px;
 }
 .plan-img{
     width: 92.96px;
     height: 92.96px;
     padding-bottom: 10px;
+    
 }
 .plan-subtitle{
     font-weight: 700;
@@ -133,4 +134,119 @@
     margin-top: 16px;
 }
 
+/* Always keep a positive mindset */
+.mindset{
+    background-image: url(images/watch.png), 
+    linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    width: 1100px;
+    height: 300px;
+    margin-left: 20%;
+    border-radius: 15px;
+    margin-top: 130px;
+    color: white;
+}
+.mindset-title{
+    justify-content: center;
+    align-items:center;
+    padding-top: 80px;
+    padding-left: 70px;
+    font-weight: 700;
+    font-size: 40px;
+}
 
+.call-btn{
+    width: 160px;
+    height: 64px;
+    margin-top: 24px;
+    margin-left: 70px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #F15B22;
+    border-radius: 8px;
+}
+.call-btn:hover{
+    background-color: #d8d2d2;
+}
+
+
+/* footer style */
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: #151414;
+    color: white;
+    margin-top: 130px;
+   
+}
+.footer-container{
+    display: flex;
+}
+
+.future{
+    padding: 130px 331px 0px 230px;
+
+}
+
+.future .future-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 13px;
+}
+
+.future-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+}
+
+.future-contact{
+    line-height: 1.8em;
+    
+}
+
+
+.Subcribe{
+    padding: 130px 229px 0px 331px;
+}
+
+.subscribe-title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+
+.input-type{
+
+}
+input{
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    background: #050505;
+    color: #F8F8F8;
+    font-size: 16px;
+    border-color: #F8F8F8;
+}
+
+.input-button{
+    margin-top: 16px;
+    width: 170.11px;
+    height: 64px; 
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+}
+
+.input-button:hover{
+    background-color: #d8d2d2;
+}
