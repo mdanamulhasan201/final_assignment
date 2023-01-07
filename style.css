@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans';
 }
 
 /* banner section style */
@@ -91,12 +92,18 @@
 .inline-description{
     font-weight: 400;
     font-size: 18px;
-    line-height: 26px;
+    line-height: 40px;
     color: #444343;
     margin-top: 16px;
     list-style-type: none;
     
 
+}
+
+.fa-solid{
+    width: 24px;
+    height: 24px;
+    color: #16D887;
 }
 
 /* my-plan style */
