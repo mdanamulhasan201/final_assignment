@@ -49,17 +49,14 @@ li a {
    
     
   }
-  
-  li a:hover {
-    background-color: #444343;
-  }
+
 
 
 
 /* banner section style */
 .banner{
     background-image: url(images/banner/banner1.png);
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -102,10 +99,6 @@ li a {
     margin-top: 50px;
     
 }
-.contact-btn:hover{
-    background: #e97649;
-}
-
 /* My failures of previous year style */
 
 .main-section{
@@ -228,10 +221,6 @@ li a {
     color: #F15B22;
     border-radius: 8px;
 }
-.call-btn:hover{
-    background-color: #d8d2d2;
-}
-
 
 /* footer style */
 footer{
@@ -283,9 +272,6 @@ footer{
     padding-bottom: 16px;
 }
 
-.input-type{
-
-}
 input{
     text-align: center;
     width: 300px;
@@ -305,8 +291,4 @@ input{
     font-weight: 600;
     font-size: 20px;
     color: #F15B22;
-}
-
-.input-button:hover{
-    background-color: #d8d2d2;
 }
