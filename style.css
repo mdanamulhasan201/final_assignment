@@ -2,11 +2,64 @@
     margin: 0;
     padding: 0;
     font-family: 'Work Sans';
+    text-decoration: none;
 }
+
+/* navbar style*/
+.navbar{
+    display: flex;
+    background: #f27240;;
+    font-size: 20px;
+    padding: 14px 16px;
+    text-align: center;
+    
+}
+
+.nav-logo a{
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 100px;
+    color: #444343;
+    margin-right: 1000px;
+    
+  }
+  span{
+    color: #FFFFFF;
+  }
+
+
+.nav-logo a:hover{
+    color: #F8F8F8;
+  }
+  
+.nav-content ul{
+    list-style-type: none;
+    display: flex;
+    
+  }
+  
+  
+li a {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 25px;
+    border-radius: 2px;
+    text-align: center;
+   
+    
+  }
+  
+  li a:hover {
+    background-color: #444343;
+  }
+
+
 
 /* banner section style */
 .banner{
     background-image: url(images/banner/banner1.png);
+    background-attachment: fixed;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -219,7 +272,7 @@ footer{
 }
 
 
-.Subcribe{
+.Subscribe{
     padding: 130px 229px 0px 331px;
 }
 
